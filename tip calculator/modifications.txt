@@ -1,0 +1,72 @@
+Beginner-Friendly Additions
+
+    Display values in separate lines/boxes:
+
+        Show Tip Amount and Total Amount in different styled divs.
+
+        Maybe animate them in when the user clicks "Calculate".
+
+    Reset button:
+
+        Add a "Clear" button to reset all fields and outputs.
+
+    Validation styling:
+
+        Highlight fields in red if input is invalid (empty or negative).
+
+    Round-up option:
+
+        A checkbox to round up the tip or total amount.
+
+    Select tip from predefined buttons:
+
+        Add buttons like 10%, 15%, 20% for quick selection.
+
+
+Intermediate Upgrades
+
+    Split bill feature:
+
+        Add input for "Number of People".
+
+        Show Tip per person and Total per person.
+
+    Dark / Light mode toggle:
+
+        Let the user switch between light and dark themes.
+
+    Save last calculation using localStorage:
+
+        When user revisits, show their last calculation.
+
+    Responsive layout:
+
+        Make it mobile-friendly with better layout and styling using Flexbox or Grid.
+
+🚀 Advanced Features
+
+    Currency selection:
+
+        Dropdown to select currency (₹, $, €) and update formatting accordingly.
+
+    Custom tip suggestion system:
+
+        Show suggestions like:
+
+            "10% - Standard"
+
+            "15% - Good service"
+
+            "20% - Excellent service"
+
+    Voice input using Web Speech API:
+
+        Let the user say: “Calculate 500 with 15% tip”.
+
+    History of calculations:
+
+        Show a list of previous calculations (like a mini logbook).
+
+    Export to PDF or print receipt:
+
+        Generate a small summary the user can print or download.

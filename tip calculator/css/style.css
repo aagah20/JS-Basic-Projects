@@ -1,0 +1,107 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background: linear-gradient(90deg, hsla(211, 66%, 87%, 1) 0%, hsla(348, 67%, 88%, 1) 50%, hsla(272, 26%, 72%, 1) 100%);
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+main{
+     
+     /* border: 1px solid black; */
+     
+}
+
+form{
+     display: flex;
+     flex-direction: column;
+}
+article{
+     background: linear-gradient(90deg, hsla(18, 76%, 85%, 1) 0%, hsla(203, 69%, 84%, 1) 100%);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     width: 80%;
+     margin: 2em auto;
+    max-width: 1200px;
+    border-radius: 10px;
+}
+div{
+     margin: 0 auto;
+     width: 80%;
+}
+h1{
+     font-size: 5rem;
+     padding: 0.8em 0;
+     margin: 0;
+}
+form label{
+     font-size: 2.5rem;
+     padding: 0.5em 0;
+}
+form input[type = text]{
+     padding: 0.5em;
+     width: 60%;
+     margin: 0 0 1.8em 0;
+     font-size: 1.9rem;
+     font-weight: 500;
+}
+form input[type = button]{
+     width: 60%;
+     padding: 0.5em;
+     margin-top: 1em;
+     background: linear-gradient(90deg, hsla(22, 100%, 78%, 1) 0%, hsla(2, 78%, 62%, 1) 100%);
+     font-size: 1.9rem;
+     letter-spacing: 2px;
+     font-weight: 700;
+     border: none;
+     border-radius: 10px;
+}
+article h3{
+     padding-top: 1.5em;
+     font-size: 2.5rem;
+     margin: 0;
+}
+article h3+h3{
+     padding-bottom: 1em;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media (max-width:725px) {
+     article{
+          width: 90%;
+     }
+     h1{
+          font-size: 4rem;
+     }
+     form label{
+          font-size: 2.8rem;
+     }
+     form input[type = text]{
+          width: 80%;
+     }
+     form input[type = button]{
+          width: 80%;
+     }
+}
